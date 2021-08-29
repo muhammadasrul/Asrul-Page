@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* margin top */
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.mt-40 {
+    margin-top: 40px;
+}
+.mt-50 {
+    margin-top: 50px;
+}
+.mt-60 {
+    margin-top: 60px;
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.mt-80 {
+    margin-top: 80px;
+}
+.mt-90 {
+    margin-top: 90px;
+}
+.mt-100 {
+    margin-top: 100px;
+}
+
+/* margin bottom */
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-70 {
+    margin-bottom: 70px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.mb-90 {
+    margin-bottom: 90px;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+/* margin start */
+.ms-10 {
+    margin-left: 10px;
+}
+.ms-20 {
+    margin-left: 20px;
+}
+.ms-30 {
+    margin-left: 30px;
+}
+.ms-40 {
+    margin-left: 40px;
+}
+.ms-50 {
+    margin-left: 50px;
+}
+.ms-60 {
+    margin-left: 60px;
+}
+.ms-70 {
+    margin-left: 70px;
+}
+.ms-80 {
+    margin-left: 80px;
+}
+.ms-90 {
+    margin-left: 90px;
+}
+.ms-100 {
+    margin-left: 100px;
+}
+
+/* margin end */
+.me-10 {
+    margin-right: 10px;
+}
+.me-20 {
+    margin-right: 20px;
+}
+.me-30 {
+    margin-right: 30px;
+}
+.me-40 {
+    margin-right: 40px;
+}
+.me-50 {
+    margin-right: 50px;
+}
+.me-60 {
+    margin-right: 60px;
+}
+.me-70 {
+    margin-right: 70px;
+}
+.me-80 {
+    margin-right: 80px;
+}
+.me-90 {
+    margin-right: 90px;
+}
+.me-100 {
+    margin-right: 100px;
+}
+
+body {
+    background-color: #F5F6F8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+/* .hero-section {
+    min-height: 80vh;
+} */
+
+.hero-section h1 {
+    font-weight: 500;
+    color: #1F1D2B;
+    line-height: 1.5em;
+}
+
+.hero-section p, h6 {
+    color: #767285;
+}
+
+.hero-section p span {
+    color: #1F1D2B;
+}
+
+.download {
+    background-color: #1F1D2B;
+    min-height: 200px;
+}
+
+.btn-custom {
+    background-color: #1F1D2B;
+    border-width: 1px;
+    border-radius: 12px;
+    border-color: #749AF6;
+    color: #7393E2;
+    font-weight: 500;
+}
+
+.custom-toggler {
+    border-width: 0;
+}
+
+.close-icon {
+    border-width: 0;
+    z-index: 2;
+    display: none;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+p {
+    font-size: 11pt;
+}
+
+.project-section {
+    background-color: #1F1D2B;
+}
+
+.project-section h1 {
+    font-weight: 400;
+    color: #F5F6F8;
+}
+
+.card-project {
+    background-color: #1F1D2B;
+    border-color: #749AF6;
+}
+
+.card-project p {
+    color: #99A7B8;
+}
+
+.card-project h3 {
+    color: #F5F6F8;
+}
+
+.certificate-section {
+    padding-top: 20px;
+    background-color: #F5F6F8;
+}
+
+.card-certificate {
+    background-color: #F5F6F8;
+    color: #1F1D2B;
+}
+
+.card-certificate p {
+    color: #767285;
+}
+
+.resume-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.resume-section h3 {
+    font-weight: 600;
+}
+
+.mobile-menu {
+    min-height: 100vh;
+    background-color: #F5F6F8;
+    min-width: 100vw;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        padding-top: .8rem;
+        padding-bottom: .8rem;
+    }    
+    .custom-toggler {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .hero-section h1 {
+        font-size: 3rem;
+        margin-top: 100px;
+    }
+    .hero-section p span {
+        font-size: 1.3rem;
+    }
+    .hero-section h6 {
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-size: 1.1rem;
+    }
+    .hero-section p {
+        margin-bottom: 100px;
+        font-size: 1rem;
+    }
+    .btn-custom {
+        margin-top: 90px;
+    }
+}

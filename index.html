@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="./css/custom.css" rel="stylesheet">
+    <title>Muhammad Asrul Aji Pangestu</title>
+</head>
+<body>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/logo.svg" alt="logo" class="me-10">Asrul's page</a>
+          <a class="custom-toggler"  href="javascript:void(0);" onclick="myFunction()">
+            <img src="./assets/menu.svg" alt="mobileMenu">
+          </a>
+          <a class="close-icon" href="javascript:void(0);" onclick="closeFunction()" id="closeMenu">
+            <img src="./assets/close.svg" alt="closeMenu">
+          </a>
+          <div class="collapse navbar-collapse" id="mobileMenu" style="display: none!important;">
+            <div class="mobile-menu">
+              <ul class="navbar-nav position-absolute top-50 start-50 translate-middle">
+                <li class="nav-item">
+                  <a class="nav-link" onclick="closeFunction()" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="closeFunction()" href="#project">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="closeFunction()" href="#certificates">Certificates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" onclick="closeFunction()" href="#resume">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+      <section class="hero-section">
+        <div class="container">
+            <h1 class="mt-60 ms-40">Muhammad<br>Asrul Aji<br>Pangestu</h1>
+            <p class="mt-20 ms-40"><span>&lt;Android Developer/&gt;</span></p>
+
+            <h6 class="mt-60 ms-20 me-20">Hey 👋🏻 I am Asrul.</h6>
+            <p class="mt-20 ms-20 me-20">Bachelor of Informatic Enginering, PGRI University of Semarang. I am Anddroid developer with a lot of experience on building Android Apps from scratch. I am also UI/UX Entusiasm, I love design very much.️</p>
+        </div>
+    
+        <div class="download mt-60 position-relative">
+            <div class="container">
+                <a href="#" class="btn btn-custom mt-60 position-absolute start-50 translate-middle-x">Download CV <img src="./assets/arrow-down.svg" alt="download" srcset=""></a>
+            </div>
+        </div>
+      </section>
+
+      <!-- second section -->
+      <section class="project-section" id="project">
+          <div class="container">
+              <h1>Project</h1>
+              <div class="row row-cols-1 row-cols-md-3 g-4 mt-20">
+                <div class="col">
+                  <div class="card rounded-3 card-project">
+                    <img src="./assets/sample.png" class="card-img-top rounded-top rounded-3" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Pahlawan Covid</h3>
+                      <p class="card-text">Track the spread of the Covid-19 that has several features such as online booking and payment for vaccine and rapid test, vaccine progress tracker, and many more..</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card rounded-3 card-project">
+                    <img src="./assets/sample3.png" class="card-img-top rounded-top rounded-3" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">Adek Dima</h3>
+                      <p class="card-text">A simple android application that implements the backward chaining method and the certainty factor method to determine the type of malaria</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-40">
+                  <div class="card rounded-3 card-project">
+                    <img src="./assets/sample2.png" class="card-img-top rounded-top rounded-3" alt="...">
+                    <div class="card-body">
+                      <h3 class="card-title">BP-SPAMS Sumber Waras</h3>
+                      <p class="card-text">An android aplication for BP-SPAMS Sumber Waras officer to manage their custommers, this app has several features such as input water meter data, show payment status, input payment data that are connected via API</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- third section -->
+      <section class="certificate-section" id="certificates">
+        <div class="container">
+            <h1>Sertificates</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-20">
+              <div class="col">
+                <div class="card rounded-3 card-certificate">
+                  <div class="card-body">
+                    <h3 class="card-title">Junior Mobile Programmer</h3>
+                    <h6>Badan Nasional Sertifikasi Profesi</h6>
+                    <p class="card-text">June 2021 - June 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-3 card-certificate">
+                  <div class="card-body">
+                    <h3 class="card-title">Menjadi Android Developer Expert</h3>
+                    <h6>Dicoding Academy</h6>
+                    <p class="card-text">Mei 2021 - Mei 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-3 card-certificate">
+                  <div class="card-body">
+                    <h3 class="card-title">Belajar Android Jetpack Pro</h3>
+                    <h6>Dicoding Academy</h6>
+                    <p class="card-text">Mei 2021 - Mei 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-3 card-certificate">
+                  <div class="card-body">
+                    <h3 class="card-title">Belajar Fundamental Aplikasi Android</h3>
+                    <h6>Dicoding Academy</h6>
+                    <p class="card-text">April 2021 - April 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-3 card-certificate">
+                  <div class="card-body">
+                    <h3 class="card-title">Belajar Prinsip Pemrograman Solid</h3>
+                    <h6>Dicoding Academy</h6>
+                    <p class="card-text">February 2021 - February 2024</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-3 card-certificate">
+                  <div class="card-body">
+                    <h3 class="card-title">Memulai Pemrograman Dengan Kotlin</h3>
+                    <h6>Dicoding Academy</h6>
+                    <p class="card-text">February 2021 - February 2024</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- fourth section -->
+    <section class="resume-section mt-40" id="resume">
+      <div class="container">
+        <div class="ms-20 me-20">
+          <h1>Resume</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 mt-20">
+            <div class="col">
+              <h3>&bull; Edication &bull;</h3>
+
+              <h4 class="mt-20">Universitas PGRI Semarang</h4>
+              <h6>Informatika - Fakultas Teknik dan Informatika</h6>
+              <p>2017 - present</p>
+
+              <h4>SMA N 1 Bandar</h4>
+              <p>2014 - 2017</p>
+            </div>
+            <div class="col">
+              <h3>&bull; Experience &bull;</h3>
+
+              <h4 class="mt-20">Bangkit Academy led by Google, Gojek, Tokopedia, Traveloka</h4>
+              <h6>Android Developer</h6>
+              <p>2021 - present</p>
+
+              <h4>AR Network</h4>
+              <h6>Android Developer</h6>
+              <p>2020 - 2021</p>
+
+              <h4>ALE Geek Battle Program</h4>
+              <h6>Mobile Development</h6>
+              <p>2019 - 2020</p>
+
+              <h4>Android & Multimedia Training Instructor</h4>
+              <h6>Android Development</h6>
+              <p>2019</p>
+            </div>
+            <div class="col">
+              <h3>&bull; Skills &bull;</h3>
+
+              <h4 class="mt-20">Programming Skills</h4>
+              <h6 class="ms-10">&bull; Kotlin</h6>
+              <h6 class="ms-10">&bull; Java</h6>
+              <h6 class="ms-10">&bull; PHP</h6>
+
+              <h4>Design & Prototyping Skills</h4>
+              <h6 class="ms-10">&bull; Figma</h6>
+              <h6 class="ms-10">&bull; Adobe XD</h6>
+              <h6 class="ms-10">&bull; Blender</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script>
+      function myFunction() {
+        var close = document.getElementById("closeMenu");
+        var x = document.getElementById("mobileMenu");
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+          close.style.display = "none"
+        } else {
+          x.style.display = "block";
+          close.style.display = "block"
+        }
+      }
+
+      function closeFunction() {
+        var close = document.getElementById("closeMenu");
+        var x = document.getElementById("mobileMenu");
+
+        if (x.style.display === "block") {
+          close.style.display = "none"
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+          close.style.display = "block"
+        }
+      }
+    </script>
+</body>
+</html>
